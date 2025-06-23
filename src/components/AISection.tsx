@@ -34,7 +34,8 @@ const AISection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="font-heading font-bold text-4xl md:text-5xl text-gray-900 mb-6">
-              Работа с <span className="text-music-purple">ИИ-музыкой</span>
+              Работа с{" "}
+              <span className="text-music-purple">музыкой,созданной ИИ</span>
             </h2>
             <p className="text-lg text-gray-600 mb-8">
               Искусственный интеллект отлично генерирует музыку, но часто ей не
