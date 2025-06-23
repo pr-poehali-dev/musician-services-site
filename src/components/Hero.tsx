@@ -43,6 +43,9 @@ const Hero = () => {
           <Button
             size="lg"
             className="bg-white text-music-purple hover:bg-white/90 font-heading font-semibold text-lg px-8 py-4"
+            onClick={() =>
+              window.open("https://zvuk.com/artist/212342801", "_blank")
+            }
           >
             <Icon name="Play" size={20} className="mr-2" />
             Послушать работы
